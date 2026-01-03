@@ -116,7 +116,7 @@ source.path:target.path
 ### Push into array
 
 ```js
-"photo:$push.photo.url";
+"photo:photo.[].url";
 ```
 
 ### Map over arrays
